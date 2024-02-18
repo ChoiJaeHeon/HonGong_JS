@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        const date = new Date()
+        const a = date.getMonth() + 1
+
+        let month = ''
+
+        if (a >= 3 && a <= 5)
+            month = '봄'
+        else if (a >= 6 && a <= 8)
+            month = '여름'
+        else if (a >= 9 && a <= 11)
+            month = '가을'
+        else
+            month = '겨울'
+        
+        alert(`${month}입니다.`)
+    </script>
+</head>
+<body>
+</body>
+</html>
